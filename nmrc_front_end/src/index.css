@@ -1,0 +1,358 @@
+/* .App{
+  border:red dotted;
+}
+
+#root{
+  border: 6px  greenyellow dashed;
+} */
+.maincon{
+  border: red solid 5px;
+  position: relative;
+  z-index:5788767888;
+}
+.NavIndex{
+  /* border: red solid 5px; */
+  position: relative;
+  z-index:12;
+}
+
+.register{
+  width:100%;
+  background-image:url("./Image/imageLogin5.jpg") ;
+  background-size:cover;  
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height:94vh;
+  
+
+}
+
+.register-inner{
+  width:90%;
+  background-color:rgba(21, 32, 1, 0.5);
+  padding:3%;
+  border-radius: 10px;
+  
+}
+@media(min-width:500px){
+  .register-inner{
+    width: 50%;
+  }
+}
+
+body {
+  background-color:indigo;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.form-icon{
+    text-align: center;
+    background-color: yellowgreen;
+    border-radius: 100%;
+    font-size: 40px;
+    /* color: white; */
+    width: 100px;
+    /* height: 100px; */
+    margin: auto;
+    margin-bottom: 10px;
+    margin-top: -40px;
+    line-height: 100px;
+}
+
+.LeftR1{
+  /* margin-left: -350px;
+  margin-right: 400px; */
+}
+.MiddleR{
+  /* margin-bottom: 10px;
+  margin-left: 100px;
+  margin-right: -90px; */
+}
+
+#H{
+  margin-top: 10px;
+  margin-left: 15px;
+  justify-content: left;
+  color:greenyellow;
+    font-weight:bold;
+    font-family: Montserrat-Bold;
+    font-size: 20px;
+}
+
+#loginBgColor{
+  /* background-color: turquoise; */
+  /* background-color:#64b6ac; */
+  background-color:#081c15;
+  margin-top: 70px;
+
+}
+#RegisterBgColor{
+  /* background-color: turquoise; */
+  /* background-color:#64b6ac; */
+  background-color:#081c15;
+  margin-top: 10px;
+  border-radius: 3%;
+  padding-top: -60px;
+}
+
+.Size{
+  /* width:1000px; */
+  height:10px;
+   padding-top: 2%;
+   
+}
+
+.Im{
+ 
+  background-image:url("") ;
+  /* /* width: auto;
+  height: auto; */
+  /* //If I change to be too small the image wont fit */
+  height:100vh;
+  width: 100%;
+  /* background-size: 1300px 648px;   */
+  background-size:cover;  
+  background-position: center;
+  background-repeat: no-repeat;
+  
+
+ }
+
+.Imr{
+ 
+  background-image:url("") ;
+  /* /* width: auto;
+  height: auto; */
+  /* //If I change to be too small the image wont fit */
+  min-height:100vh;
+  width: 100%;
+  position: relative;
+  /* background-size: 1300px 648px;   */
+  background-size:cover;  
+  background-position: center;
+  background-repeat: no-repeat;
+  
+
+ }
+ .dashAdmin{
+ 
+  background-image:url("./Image/Poultry.jpg") ;
+  /* /* width: auto;
+  height: auto; */
+  /* //If I change to be too small the image wont fit */
+  min-height:81vh;
+  width: 100%;
+  position: relative;
+  /* background-size: 1300px 648px;   */
+  background-size:cover;  
+  background-position: center;
+  background-repeat: no-repeat;
+  
+
+ }
+
+
+
+#OP{
+  opacity:0.6;
+}
+#OPr{
+  opacity:0.7;
+}
+
+.NavPick{
+  /* border: lavender dashed; */
+   min-width:90px;
+   min-height: 30px;
+   width:250px;
+   height: 10px;
+}
+
+img{
+  object-fit:cover;
+  width: 100%;
+  height:100%;
+}
+.navbar{
+  background-color:#081c15; 
+  width: 100%;
+  overflow: hidden;
+}
+
+.Lnav{
+  line-height: 1;
+  color:greenyellow;
+  font-family: Montserrat-Bold;
+  font-size: 15px;
+  /* font-weight:bold; */
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  
+  align-items: center;
+  padding: 0 5px;
+}
+.Lnav:hover {
+  color:white;
+}
+
+.container-login100-form-btn {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.login100-form-btn{
+  /* btn-outline-success rounded-pill; */
+  font-family: Montserrat-Bold;
+  font-size: 18px;
+  line-height: 1.5;
+  font-weight:bold;
+  color:green;
+  text-transform: uppercase;
+
+  width: 50%;
+  height: 35px;
+  border-radius: 25px;
+  background:whitesmoke;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 25px;
+
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+
+  }
+
+  .login100-form-btn:hover {
+    background:#ccff33;
+    color:black;
+  }
+
+ 
+
+  button {
+    outline: none !important;
+    border: none;
+    background: transparent;
+  }
+
+
+  button:hover {
+    cursor: pointer;
+  }
+  
+  input:focus{
+    outline: none;
+   }
+
+   .input100 {
+    font-family: Poppins-Medium;
+    font-size: 23px;
+    line-height: 1.5;
+    color:  #0b2545;
+    border: 2px solid #0b2545;
+    display: block;
+    width: 100%;
+    background: #e6e6e6;
+    height: 40px;
+    border-radius: 25px;
+    padding: 0 30px 0 68px;
+    
+  }
+.BoxesLongin{
+  margin-bottom:5%;
+}
+  .wrap-input100 {
+    position: relative;
+    width: 100%;
+    z-index: 1;
+    margin-bottom:5px;
+  }
+
+  #Title {
+    position: relative;
+    width: 35%;
+    z-index: 5;
+    margin-bottom:45px;
+    margin-top:-90px;
+    color:greenyellow;
+    font-weight:bold;
+    font-family: Montserrat-Bold;
+    font-size: 20px;
+  }
+
+  .symbol-input100 {
+    font-size: 15px;
+  
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    border-radius: 25px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding-left: 35px;
+    pointer-events: none;
+    color: #007200;
+  
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+  }
+  .Form-btn2{
+    /* btn-outline-success rounded-pill; */
+    /* font-family: Montserrat-Bold; */
+    font-size: 14px;
+    /* line-height: 1; */
+    font-weight:bold;
+    color:white;
+    /* text-transform: uppercase; */
+    width: 7%;
+    height: 25px;
+    border-radius: 7px;
+    background:#208b3a;
+    display: flex;
+    justify-content: center;
+    /* align: items 10px; */
+    text-decoration:none;
+    padding-top:5px;
+    padding-left:5px;
+    }
+
+    
+  
+  
